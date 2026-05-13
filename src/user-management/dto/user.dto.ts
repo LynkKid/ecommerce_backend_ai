@@ -1,15 +1,5 @@
-import { IsEmail, IsNotEmpty } from 'class-validator';
-
-export class UserDto {
-  @IsNotEmpty()
-  id: number;
-
-  @IsNotEmpty()
-  username: string;
-
-  @IsEmail()
-  email: string;
-
-  @IsNotEmpty()
-  role_id: number;
-}
+aW1wb3J0IHsgSXNFbWFpbCwgSXNOb3RFbXB0eSB9IGZyb20gJ2NsYXNzLXZh
+bGlkYXRvcic7CgpleHBvcnQgY2xhc3MgVXNlckR0byB7CiAgQElzTm90RW1w
+dHkoKQogIGlkOiBudW1iZXI7CgogIEBJc05vdEVtcHR5KCkKICB1c2VybmFt
+ZTogc3RyaW5nOwoKICBASXNFbWFpbCgpCiAgZW1haWw6IHN0cmluZzsKCiAg
+QElzTm90RW1wdHkoKQogIHJvbGVfaWQ6IG51bWJlcjsKfQ==
